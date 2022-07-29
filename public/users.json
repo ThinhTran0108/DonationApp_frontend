@@ -1,0 +1,133 @@
+[
+  {
+  "_id": {
+    "$oid": "62d50efbdec31f2e006c6dc0"
+  },
+  "username": "nguyenvana",
+  "password": "abcd1234",
+  "fullname": "Nguyễn Văn A",
+  "email": "nguyenvana@email.com",
+  "gender": "Nam",
+  "mobile": "0123456789",
+  "address": "Quận 3",
+  "imageUserUrl": "null",
+  "isAdmin": false
+},{
+  "_id": {
+    "$oid": "62d51057dec31f2e006c6dc2"
+  },
+  "username": "nguyenvanb",
+  "password": "abcd1234",
+  "fullname": "Nguyễn Văn B",
+  "email": "nguyenvanb@email.com",
+  "gender": "Nam",
+  "mobile": "null",
+  "address": "null",
+  "imageUserUrl": "null",
+  "isAdmin": false
+},{
+  "_id": {
+    "$oid": "62d51093dec31f2e006c6dc3"
+  },
+  "username": "admin1",
+  "password": "abcd1234",
+  "fullname": "Admin C",
+  "email": "\badminc@email.com",
+  "gender": "Nam",
+  "mobile": "0123456789",
+  "address": "Quận 5",
+  "imageUserUrl": "null",
+  "isAdmin": true
+},{
+  "_id": {
+    "$oid": "62d510cfdec31f2e006c6dc4"
+  },
+  "username": "nguyenvand",
+  "password": "abcd1234",
+  "fullname": "Nguyễn Văn D",
+  "email": "nguyenvand@email.com",
+  "gender": "Nữ",
+  "mobile": "null",
+  "address": "Quận 1",
+  "imageUserUrl": "null",
+  "isAdmin": false
+},{
+  "_id": {
+    "$oid": "62d510fadec31f2e006c6dc5"
+  },
+  "username": "nguyenvane",
+  "password": "abcd1234",
+  "fullname": "Nguyễn Văn E",
+  "email": "nguyenvane@email.com",
+  "gender": "Khác",
+  "mobile": "0123456789",
+  "address": "nulll",
+  "imageUserUrl": "null",
+  "isAdmin": false
+},{
+  "_id": {
+    "$oid": "62d51123dec31f2e006c6dc6"
+  },
+  "username": "admin2",
+  "password": "abcd1234",
+  "fullname": "Admin F",
+  "email": "adminf@email.com",
+  "gender": "Nam",
+  "mobile": "0123456789",
+  "address": "Quận 1",
+  "imageUserUrl": "null",
+  "isAdmin": true
+},{
+  "_id": {
+    "$oid": "62d511eedec31f2e006c6dc7"
+  },
+  "username": "nguyenvang",
+  "password": "abcd1234",
+  "fullname": "Nguyễn Văn G",
+  "email": "nguyenvang@email.com",
+  "gender": "Nữ",
+  "mobile": "0123456789",
+  "address": "Quận 10",
+  "imageUserUrl": "null",
+  "isAdmin": false
+},{
+  "_id": {
+    "$oid": "62d51207dec31f2e006c6dc8"
+  },
+  "username": "nguyenvanh",
+  "password": "abcd1234",
+  "fullname": "Nguyễn Văn H",
+  "email": "nguyenvanh@email.com",
+  "gender": "Nam",
+  "mobile": "null",
+  "address": "Quận 10",
+  "imageUserUrl": "null",
+  "isAdmin": false
+},{
+  "_id": {
+    "$oid": "62d5121adec31f2e006c6dc9"
+  },
+  "username": "nguyenvani",
+  "password": "abcd1234",
+  "fullname": "Nguyễn Văn I",
+  "email": "nguyenvani@email.com",
+  "gender": "Nam",
+  "mobile": "null",
+  "address": "Quận 10",
+  "imageUserUrl": "null",
+  "isAdmin": false
+},{
+  "_id": {
+    "$oid": "62d51228dec31f2e006c6dca"
+  },
+  "username": "nguyenvank",
+  "password": "abcd1234",
+  "fullname": "Nguyễn Văn K",
+  "email": "nguyenvank@email.com",
+  "gender": "Nam",
+  "mobile": "null",
+  "address": "Quận 10",
+  "imageUserUrl": "null",
+  "isAdmin": false
+}
+]

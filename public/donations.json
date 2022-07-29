@@ -1,0 +1,138 @@
+[
+  {
+  "_id": {
+    "$oid": "62d5273bdec31f2e006c6ddd"
+  },
+  "userId": {
+    "$oid": "62d51057dec31f2e006c6dc2"
+  },
+  "username": "nguyenvanb",
+  "fullname": "Nguyễn Văn B",
+  "imageUserUrl": "null",
+  "eventId": "event001",
+  "eventName": "Hỗ trợ quyên góp nhà tình thương XXX",
+  "donationData": [
+    {
+      "donationId": {
+        "$oid": "62d527b3dec31f2e006c6dde"
+      },
+      "donationDate": {
+        "$date": {
+          "$numberLong": "1660089600000"
+        }
+      },
+      "donation": 10000,
+      "donationStatus": "successful"
+    },
+    {
+      "donationId": {
+        "$oid": "62d5284fdec31f2e006c6ddf"
+      },
+      "donationDate": {
+        "$date": {
+          "$numberLong": "1660176000000"
+        }
+      },
+      "donation": 5000,
+      "donationStatus": "pending"
+    }
+  ],
+  "totalDonation": 10000
+  },
+  {
+  "_id": {
+    "$oid": "62d52ad9dec31f2e006c6dfa"
+  },
+  "userId": {
+    "$oid": "62d50efbdec31f2e006c6dc0"
+  },
+  "username": "nguyenvana",
+  "fullname": "Nguyễn Văn A",
+  "imageUserUrl": "null",
+  "eventId": "event002",
+  "eventName": "Hỗ trợ quyên góp trại trẻ mồ côi ABC",
+  "donationData": [
+    {
+      "donationId": {
+        "$oid": "62d52a95dec31f2e006c6df7"
+      },
+      "donationDate": {
+        "$date": {
+          "$numberLong": "1657411200000"
+        }
+      },
+      "donation": 20000,
+      "donationStatus": "rejected"
+    },
+    {
+      "donationId": {
+        "$oid": "62d52a9bdec31f2e006c6df9"
+      },
+      "donationDate": {
+        "$date": {
+          "$numberLong": "1660521600000"
+        }
+      },
+      "donation": 15000,
+      "donationStatus": "pending"
+    }
+  ],
+  "totalDonation": 0
+  },
+  {
+  "_id": {
+    "$oid": "62d52c2fdec31f2e006c6e23"
+  },
+  "userId": {
+    "$oid": "62d510fadec31f2e006c6dc5"
+  },
+  "username": "nguyenvane",
+  "fullname": "Nguyễn Văn E",
+  "imageUserUrl": "null",
+  "eventId": "event002",
+  "eventName": "Hỗ trợ quyên góp trại trẻ mồ côi ABC",
+  "donationData": [
+    {
+      "donationId": {
+        "$oid": "62d52c22dec31f2e006c6e22"
+      },
+      "donationDate": {
+        "$date": {
+          "$numberLong": "1658275200000"
+        }
+      },
+      "donation": 15000,
+      "donationStatus": "pending"
+    }
+  ],
+  "totalDonation": 0
+  },
+  {
+  "_id": {
+    "$oid": "62d52cb8dec31f2e006c6e35"
+  },
+  "userId": {
+    "$oid": "62d51057dec31f2e006c6dc2"
+  },
+  "username": "nguyenvanb",
+  "fullname": "Nguyễn Văn B",
+  "imageUserUrl": "null",
+  "eventId": "event005",
+  "eventName": "Hỗ trợ xây nhà tình thương tại miền Trung",
+  "donationData": [
+    {
+      "donationId": {
+        "$oid": "62d52cb6dec31f2e006c6e34"
+      },
+      "donationDate": {
+        "$date": {
+          "$numberLong": "1658275200000"
+        }
+      },
+      "donation": 15000,
+      "donationStatus": "pending"
+    }
+  ],
+  "totalDonation": 0
+  }
+]
