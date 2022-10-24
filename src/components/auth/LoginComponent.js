@@ -32,9 +32,9 @@ export default function Login({ setUser }) {
     const [displayLoginForm, setDisplayLoginForm] = useState(true);
     const [displayForgotPasswordForm, setDisplayForgotPasswordForm] = useState(false);
     const [displaySignupForm, setDisplaySignupForm] = useState(false);
-    const [username, setUsername] = useState();
+    const [username, setUsername] = useState('superadmin');
     const [email, setEmail] = useState();
-    const [password, setPassword] = useState();
+    const [password, setPassword] = useState('aA123456');
     const [messageResponse, setMessageResponse] = useState({errorMessage: '', message: ''});
     const [valueErrors, setValueError] = useState({username: '', email:'', password: ''});
     
@@ -116,14 +116,14 @@ export default function Login({ setUser }) {
                                 </div>
                                 <div className="form-group">
                                     <Label className="form-label">Username</Label>
-                                    <Input type="text" className="form-control" name="username" placeholder="Username" value='superadmin' valid={valueErrors.username === ''} invalid={valueErrors.username !== ''} onChange={(e) => handleInputChange(e)}/>
+                                    <Input type="text" className="form-control" name="username" placeholder="Username" value={username} valid={valueErrors.username === ''} invalid={valueErrors.username !== ''} onChange={(e) => handleInputChange(e)}/>
                                     <FormFeedback>{valueErrors.username}</FormFeedback>
                                 </div>
                                 <div className="form-group">
                                     <Label className="form-label">Password
                                         <a className="float-right small text-decoration-none" href="#!" onClick={() => {setDisplayForgotPasswordForm(true); setDisplayLoginForm(false); setDisplaySignupForm(false); setMessageResponse({errorMessage: '', message: ''});}}>I forgot password</a>
                                     </Label>
-                                    <Input type="password" className="form-control" name="password" placeholder="Password" value='aA123456' valid={valueErrors.password === ''} invalid={valueErrors.password !== ''} onChange={(e) => handleInputChange(e)}/>
+                                    <Input type="password" className="form-control" name="password" placeholder="Password" value={password} valid={valueErrors.password === ''} invalid={valueErrors.password !== ''} onChange={(e) => handleInputChange(e)}/>
                                     <FormFeedback>{valueErrors.password}</FormFeedback>
                                 </div>
                                 <div className="form-footer">
